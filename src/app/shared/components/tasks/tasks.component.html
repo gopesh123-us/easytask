@@ -1,0 +1,26 @@
+<div class="task-header-container" *ngIf="uName !== ''">
+  <div class="task-header">
+    <p class="user-name">{{ uName }}'s Tasks</p>
+    <button class="btn add-task-btn">Add Task</button>
+  </div>
+
+  <div class="task-list-div">
+    <ul class="task-list-items">
+      <li>
+        <div>
+          <h1 class="task-title">Master Angular</h1>
+          <p class="task-date">Dec 31, 2025</p>
+          <br />
+          <p class="task-description">
+            Learn all the basics and advanced features of Angular and how to
+            apply them. Angular is a interesting framework.
+          </p>
+          <br />
+          <div class="complete-btn-div">
+            <button class="btn complete-btn">Complete</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

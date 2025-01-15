@@ -1,0 +1,24 @@
+.container {
+  /* border: 1px solid white; */
+  max-width: 60rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.user-list {
+  list-style: none;
+  white-space: nowrap;
+}
+.user-list-item {
+  margin-bottom: 0.5rem;
+}
+.main {
+  display: flex;
+  gap: 30px;
+}
+.user-task-div {
+  background-color: #2a1e41;
+  width: 100%;
+  border-radius: 10px;
+}

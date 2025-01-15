@@ -1,0 +1,28 @@
+.profile-card {
+  max-width: 16rem;
+  min-width: 10rem;
+  height: 55px;
+  background-color: #2f233f;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+}
+.profile-card:hover,
+.profile-card:active,
+.active {
+  background-color: #8951d6;
+  color: #150722;
+}
+
+.profile-img {
+  width: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
